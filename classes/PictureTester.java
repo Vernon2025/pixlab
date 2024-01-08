@@ -56,6 +56,11 @@ public class PictureTester
     caterpillar.mirrorVertical();
     caterpillar.explore();
   }
+   public static void testGreen()
+  {
+    Picture caterpillar = new Picture("images/caterpillar.jpg");
+    caterpillar.getCountGreenOverValue(23);
+  }
   
   /** method to test mirrorVerticalRightToLeft **/
   public static void testMirrorVerticalRightToLeft() {
@@ -153,6 +158,7 @@ public class PictureTester
     //testCollage();
     //testCopy();
     testEdgeDetection();
+    testGreen();
     //testEdgeDetection2();
     //testChromakey();
     //testEncodeAndDecode();
